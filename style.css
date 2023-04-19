@@ -1,1 +1,79 @@
-:root
+:root{
+    font-size: 100%;
+}
+
+body{
+    background-image: url(background.svg);
+    margin: 0px;
+    color: #ffffff;
+}
+
+/*Header début*/
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Inter";
+    width: 1861px;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#nom{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    margin-left: 3.875rem;
+    width: 154px;
+}
+
+#tel{
+    width: 200px;
+    margin-left: 2.0519rem;
+    margin-top: 1.875rem;
+}
+
+#email{
+    width: 354.19px;
+    margin-left: 2.0519rem;
+    margin-top: 1.875rem;
+}
+/*-----------------------------------*/
+
+
+
+/*Partie présentation*/
+#component1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    box-sizing: border-box;
+    width: 875.83px;
+    height: 394px;
+    padding-left: 24.5625rem;
+}
+
+#component1-content--col-left{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 710px;
+}
+
+h1{
+    width: 304px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 1.5625rem;
+
+}
+
+h2{
+    
+}
+
