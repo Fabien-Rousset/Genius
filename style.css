@@ -33,13 +33,13 @@ body{
 #tel{
     width: 200px;
     margin-left: 2.0519rem;
-    margin-top: 1.875rem;
+    margin-top: 1rem;
 }
 
 #email{
     width: 354.19px;
     margin-left: 2.0519rem;
-    margin-top: 1.875rem;
+    margin-top: 1rem;
 }
 /*-----------------------------------*/
 
@@ -47,9 +47,8 @@ body{
 
 /*Partie présentation*/
 #component1{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     width: 875.83px;
     height: 394px;
@@ -69,11 +68,86 @@ h1{
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 1.5rem;
-    letter-spacing: 1.5625rem;
+    letter-spacing: 0.25rem;
+    margin-top: 4.375rem;
+    margin-bottom: 0px;
 
 }
 
 h2{
-    
+    font-family: "Inter";
+    width: 875.8304px;
+    font-weight: 400;
+    font-size: 4.5rem;
+    line-height: 6.3rem;
+    letter-spacing: -0.1875rem;
+    margin-top: 2.0625rem;
+    margin-bottom: 0px;
 }
 
+#olivier{
+    font-family: "Inter";
+    color: #f87f28;
+    width: 340px;
+    line-height: 6.3rem;
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: -0.0625rem;
+    margin-top: 0rem;
+}
+
+#component1-content--col-left-description{
+    width: 441px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+}
+
+h3{
+    width: 303px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+#component-content--col-right-action{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+#component-content--col-right-action1 a{
+    width: 123px;
+    font-family: "Roboto";
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.4875rem;
+    text-align: center;
+    background-color: #BB2323;
+    padding: 0.75rem 2rem;
+    border-radius: 3.125rem;
+}
+
+#component-content--col-right-action2 a{
+    width: 131px;
+    font-family: "Roboto";
+    color: #F87F28;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.4875rem;
+    text-align: center;
+    background-color: black;
+    padding: 0.75rem 2rem;
+    border-radius: 3.125rem;
+    border:0.125rem solid#F87F28; 
+   
+}
