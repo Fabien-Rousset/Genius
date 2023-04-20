@@ -3,12 +3,13 @@
 }
 
 body{
-    background-image: url(background.svg);
+    background-image: url(image/background.svg);
     margin: 0px;
     color: #ffffff;
 }
 
-/*Header début*/
+/*-----container1------*/
+/*-----Header début----*/
 #header{
     display: flex;
     flex-direction: row;
@@ -45,13 +46,13 @@ body{
 
 
 
-/*Partie présentation*/
+/*-------Partie présentation--------*/
 #component1{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     box-sizing: border-box;
-    width: 875.83px;
-    height: 394px;
+    width: auto;
+    height: auto;
     padding-left: 24.5625rem;
 }
 
@@ -120,6 +121,7 @@ h3{
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
+    margin-top: 3.75rem;
 }
 
 #component-content--col-right-action1 a{
@@ -148,6 +150,106 @@ h3{
     background-color: black;
     padding: 0.75rem 2rem;
     border-radius: 3.125rem;
-    border:0.125rem solid#F87F28; 
+    border:0.125rem solid#F87F28;
+    margin-left: 1.4375rem; 
    
+}
+
+#component1-content--col-right{
+  
+    margin-top: 4rem;
+    margin-right: 0rem;
+    mix-blend-mode: lighten;
+}
+/*--------------------------------*/
+
+
+/*-----------Footer-------------*/
+
+#footer{
+    width: 1220px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 5.5rem;
+    margin-left: 20.8125rem;
+}
+#footer p{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 30.72px;
+    letter-spacing: 0.1875rem;
+    text-align: center;
+    color: #bfbfbf;
+}
+
+#component-footer-bottom{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+
+#sega{
+    margin-top: 3.4875rem;
+    margin-left: 6.9619rem;
+}
+
+#ubisoft{
+    margin-top: 2.4081rem;
+    margin-left: 3.7631rem;
+}
+
+#microsoft{
+    margin-top: 2.2494rem;
+    margin-left: 1.4063rem;
+}
+
+#electronic{
+    margin-top: 2.2044rem;
+    margin-left: 0.8219rem;
+}
+
+#capcom{
+    margin-top: 4.3119rem;
+    margin-left: 2.6625rem;
+}
+
+#bethesda{
+    margin-top: 4.4063rem;
+    margin-left: 2.0038rem;
+}
+/*-----------------------------*/
+/*------end-container1---------*/
+
+
+/*--------container2-----------*/
+#container2{
+    width: 1336px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 0rem;
+    margin-left: 16.375rem;
+    margin-bottom: 5.6025rem;
+}
+
+#component-top{
+    width: 429px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#component-top p{
+    width: 255px;
+    font-family: "Inter sans";
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 3.75rem;
+    text-align: center;
+
+
 }
