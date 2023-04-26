@@ -4,12 +4,26 @@
 
 body{
     background-image: url(image/background.svg);
+    background-size: auto;
     margin: 0px;
     color: #ffffff;
+    width: 100vw;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
 }
 
 /*-----container1------*/
 /*-----Header début----*/
+
+
 #header{
     display: flex;
     flex-direction: row;
@@ -46,7 +60,14 @@ body{
 
 
 
-/*-------Partie présentation--------*/
+/*-------Container--------*/
+
+#container1{
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+}
+
 #component1{
     display: flex;
     flex-direction: row;
@@ -75,8 +96,7 @@ h1{
 
 }
 
-h2{
-    font-family: "Inter";
+#nombre{
     width: 875.8304px;
     font-weight: 400;
     font-size: 4.5rem;
@@ -174,6 +194,7 @@ h3{
     margin-top: 5.5rem;
     margin-left: 20.8125rem;
 }
+
 #footer p{
     font-family: "Roboto";
     font-weight: 400;
@@ -189,7 +210,6 @@ h3{
     flex-direction: row;
     box-sizing: border-box;
     text-align: center;
-   
 }
 
 #sega{
@@ -221,9 +241,7 @@ h3{
     margin-top: 4.4063rem;
     margin-left: 2.0038rem;
 }
-/*-----------------------------*/
 /*------end-container1---------*/
-
 
 /*--------container2-----------*/
 #container2{
@@ -248,20 +266,17 @@ h3{
 
 #competence{
     width: 255px;
-    font-family: "Inter";
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2.25rem;
     line-height: 3.75rem;
-    text-align: center;
+    text-align: left;
     margin-left: 0px;
 }
 
 #component-content-top{
     width: 429px;
-    font-family: "Inter";
     font-weight: 400;
     font-size: 0.875rem;
-    line-height: 24px;
     text-align: center;
     margin-top: 2.8125rem;
 }
@@ -281,14 +296,12 @@ h3{
     width: 191px;
     height: 182px;
     margin-top: 7.25rem;
-    margin-left: 8.8125rem;
+    margin-left: 8.8125rem;    
+    margin-bottom: 13.5rem;
 }
 
 .titre{
-   
-    font-family: "Inter";
-    font-weight: 600;
-    font-size: 1rem;
+    font-weight: 500;
     line-height: 1.4rem;
     margin-top: 1.1875rem;
     letter-spacing: normal;
@@ -296,11 +309,8 @@ h3{
 }
 
 .latin{
-    font-family: "Inter";
-    font-weight: 400;
-    font-size: 0.875rem;
-    line-height: 1.5rem;
-    margin-top: 1rem;
+    font-size: 14px;
+    margin-top: 16px;
     height: 72px;
 }
 
@@ -312,6 +322,7 @@ h3{
     height: 182px;
     margin-top: 7.25rem;
     margin-left: 8.8125rem;
+    margin-bottom: 13.5rem;
 }
 
 #component-bottom-content-3{
@@ -322,6 +333,8 @@ h3{
     height: 182px;
     margin-top: 7.25rem;
     margin-left: 8.8125rem;
+    margin-bottom: 13.5rem;
+
 }
 
 #component-bottom-content-4{
@@ -332,17 +345,18 @@ h3{
     height: 182px;
     margin-top: 7.25rem;
     margin-left: 8.8125rem;
+    margin-bottom: 13.5rem;
 }
 /*-----End container-2--------*/
 
 
 /*-------container-3---------*/
-#congtainer3{
+#container3{
     width: 1110px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     box-sizing: border-box;
-    margin-top: 7.625rem;
+    margin-top: 6.75rem;
     margin-left: 23.4375rem;
 }
 
@@ -351,12 +365,327 @@ h3{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    
 }
 
-#portfolio{
-    font-family: "Inter";
-    font-weight: 600;
+#Portfolio{
+    width: 303px;
+    font-weight: 450;
+    font-size: 36px;
+    line-height: 60px; 
+}
+
+
+
+#container3-col-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4.8125rem;
+}
+
+#container3-col-right-line1{
+    display: flex;
+    column-gap: 1.5rem;
+    padding-bottom: 1.5rem;
+    box-sizing: border-box;
+}
+
+#container3-col-right-line2{
+    display: flex;
+    column-gap: 1.5rem;
+    padding-bottom: 1.5rem;
+    box-sizing: border-box;
+}
+
+#container3-col-right-line3{
+    display: flex;
+    column-gap: 1.5rem;
+}
+/*--------END-container3----------*/
+
+/*--------container4--------------*/
+
+#container4{ 
+    width: 1110px;
+    display: flex;
+    margin-top: 15.3125rem;
+    margin-left: 24.1875rem;
+}
+
+#container4-col-left{
+    width: 242px;
+    display: flex;
+    flex-direction: column;
+}
+
+#experience{
+    width: 249px;
+    height: 60px;
+    margin-top: 1.8125rem;
+    font-weight: 450;
     font-size: 2.25rem;
     line-height: 3.75rem;
-    margin-bottom: ;
+}
+
+.container4-col-left{
+    width: 242px;
+    font-family: "Inter";
+    font-size: 0.875rem;
+    margin-top: 47px;
+}
+
+#component-content--col-left-action1 > a{
+    width: 130px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+    background-color: #BB2323;
+    padding: 0.75rem 2rem;
+    border-radius: 3.125rem;
+    margin-top: 2.625rem;
+    margin-bottom: 9.585rem;
+}
+
+#BOX{
+    display: flex;
+    flex-direction: column;
+}
+
+#container4-col-right--boxA{
+    width: 733px;
+    height: 134px;
+    display: flex;
+    margin-left: 7.125rem;
+}
+
+#boxA1{
+    display: flex;
+    flex-direction: column;   
+}
+
+#boxA2{
+    width: 326px;
+    display: flex;
+}
+
+#icone1{
+    margin-top: 0.125rem;
+}
+
+#now{
+    width: 108px;
+    font-family: "Roboto sans";
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1.05rem;
+    letter-spacing: 0.125rem;
+    margin-left: 1.6875rem;
+}
+#webdev{
+    width: 178px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    margin-left: 2.5rem;
+    margin-top: 0.8125rem;
+}
+
+#boxA2{
+    width:326px;
+    font-weight: 300;
+    font-size: 0.875rem;
+    margin-left: 9.0625rem;
+}
+
+/*-----------------------*/
+#container4-col-right--boxB{
+    width: 733px;
+    height: 135px;
+    display: flex;
+    margin-left: 7.125rem;
+}
+
+#boxB1{
+    display: flex;
+    flex-direction: column;   
+}
+
+#boxB2{
+    width: 326px;
+    display: flex;
+}
+
+#icone2{
+    margin-top: 2px;
+}
+
+#avril{
+    width: 195px;
+    font-family: "Roboto sans";
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1.05rem;
+    letter-spacing: 0.125rem;
+    margin-left: 27px;
+}
+#directeur{
+    width: 249px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    margin-left: 1.6875rem;
+    margin-top: 0.8125rem;
+}
+
+#boxB2{
+    width:326px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+/*---------------------------*/
+#container4-col-right--boxC{
+    width: 733px;
+    height: 147px;
+    display: flex;
+    margin-left: 7.125rem;
+}
+
+#boxC1{
+    display: flex;
+    flex-direction: column;   
+}
+
+#boxC2{
+    width: 326px;
+    display: flex;
+}
+
+#icone3{
+    margin-top: 0.125rem;
+}
+
+#mai{
+    width: 195px;
+    font-family: "Roboto sans";
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1.05rem;
+    letter-spacing: 0.125rem;
+    margin-left: 1.375rem;
+}
+#dev{
+    width: 262px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    margin-left: 1.375rem;
+    margin-top: 0.8125rem;
+}
+
+#boxA2{
+    width:302px;
+    margin-left: 3.875rem;
+}
+
+/*-------END--Container4-------*/
+
+/*-------container5---------*/
+
+#container5{
+    display: flex;
+}
+
+#container5-col-left{
+    margin-left: 24.375rem;
+    margin-top: 16.1025rem;
+}
+
+#line-1{
+    display: flex;
+    column-gap: 1.4375rem;
+    padding-bottom: 1.5rem;
+}
+
+#line-2{
+    display: flex;
+    column-gap: 1.4375rem;
+    padding-bottom: 1.5rem;
+}
+
+#line-3{
+    display: flex;
+    column-gap: 1.4375rem;
+    padding-bottom: 1.5rem;
+}
+
+#line-4{
+    display: flex;
+    column-gap: 1.4375rem;
+    padding-bottom: 1.5rem;
+}
+
+#angular{
+    margin-right: 1.4375rem;
+}
+
+#node-js{
+    margin-right: 1.4375rem;
+}
+
+#analytics{
+    margin-right: 1.4375rem;
+}
+
+#container5-col-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.8125rem;
+    margin-top: 17.8525rem;
+}
+
+#competence{
+    margin-left: 0;
+}
+
+.latin5{
+    width: 327px;
+}
+
+/*-------END-Container5----------*/
+
+/*---------Conatiner6------------*/
+#container6{
+    display: flex;
+    flex-direction: column;
+}
+
+#temoignages{
+    width: 419px;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 3.75rem;
+    margin-top: 9.3125rem;
+    margin-left: 45.0625rem;
+    text-align: center;
+}
+
+#container6-line1{
+    display: flex;
+    margin-left: 31.375rem;
+    margin-top: 5.1875rem;
+    padding: 0.25rem 0.375rem;
+}
+
+#trait6{
+    margin-left: 55.875rem;
+    margin-top: 0.75rem;
+}
+
+#latin-6{
+    font-weight: 100;
+    font-size: 1.3125rem;
+    line-height: 1.6062rem;
+    font-style: italic;
+    margin-left: 47px;
 }
