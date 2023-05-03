@@ -1,0 +1,457 @@
+@media screen and (max-width:412px) {
+    
+body{
+    background-image: url(./assets/image/background-responsive.svg);
+   
+}
+
+/*-------Container-1-------*/
+
+
+#tel{
+    display: none;
+}
+
+#email{
+    display: none;
+}
+
+#rond-orange{
+    display: block;
+    margin-left: 7.49rem;
+    margin-bottom: 3.0888rem;
+}
+
+#nom{
+    margin-left: 1rem;
+    margin-top: 1.1131rem;
+}
+
+#header{
+    margin: 0;
+    align-items: flex-start;
+}
+
+#component1{
+    margin:0px;
+}
+
+#component1-content--col-right{
+    display: none;
+}
+
+h1{
+    margin-top: 0rem;
+    margin-left:1.8294rem;
+}
+/*-----------------------*/
+
+#component1-content--col-left{
+    padding: 0.6rem;
+}
+
+#nombre{
+    width: 350.79px;
+    font-size: 2.5rem;
+    line-height:1.5rem;
+    margin-left: 1.5169rem;
+    margin-top: 1.5rem;
+}
+
+#olivier{
+    margin-left: 0;
+    margin-top: 0.03rem;
+}
+
+#component1-content--col-left-description{
+    width: 322.47px;
+    margin-left: 1.8294rem;
+    margin-top: 2.2775rem;
+}
+
+h3{
+    margin-left: 1.8294rem;
+    margin-top: 2.3125rem;
+}
+
+#component-content--col-right-action{
+    margin-left: 1.5169rem; 
+    margin-top: 2.0144rem;
+}
+
+#footer{
+    margin-left: 0;
+}
+
+#component-footer-top{
+    margin-top: 4.2062rem;
+}
+
+#footer p{
+    text-align: start;
+    margin-left: 1.5rem;
+}
+
+#component-footer-bottom{
+    display: none;
+}
+
+#component-footer-bottom-375{
+    display: flex;
+    flex-direction: column;
+}
+
+#component-footer-bottom-375-line1{
+    display: flex;
+    align-items: center;
+    margin-left: 2.3744rem ;}
+
+#component-footer-bottom-375-line2{
+    display: flex;
+}
+
+#component-footer-bottom-375-line3{
+    display: flex;
+}
+
+
+/*------Containeter-2----*/
+
+#component-top{
+    width: 334.33px;
+    margin-left: 1.7406rem;
+    margin-top: 4.52rem;
+}
+
+#sega{
+    margin: 0;
+}
+
+#ubisoft{
+    margin: 0;
+}
+
+#component-footer-bottom-375-line1{
+column-gap: 3.9175rem; 
+text-align: center;
+}
+
+#microsoft{
+    margin:0;
+}
+
+#electronic{
+    margin:0;
+}
+
+#capcom{
+    margin-left: 2.2781rem;
+    margin-top: 0.665rem;
+    margin-right: 1.4063rem;
+}
+
+#bethesda{
+    margin-top: 0.665rem;
+    margin-left: 0rem;
+}
+
+#component-footer-bottom-375-line3{
+    margin-bottom: 4.5225rem;
+}
+
+#footer{
+    margin:0rem;
+}
+
+/*----------END---Container-1--------*/
+
+/*-----------Container-2-----------*/
+
+#container2{
+    margin: 0rem;
+}
+
+#component-top{
+    margin-left: 1.7406rem;
+    margin-top: 0rem;
+    margin-bottom: 2.5375rem;
+    width: 334.33px;
+    align-items: start;
+}
+
+#component-content-top{
+    width: 325.49px;
+    margin-left: 0.5531rem;
+    margin-top: 1.2625rem;
+    margin-bottom: 2.5375rem;
+    text-align: left;
+}
+
+#component-bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+#component-bottom-content-1{
+    margin-left: 2.3994rem;
+    margin-top: 0rem;
+    margin-bottom: 0;
+}
+
+.titre{
+    margin:0rem;
+    margin-top: 0.5125rem;
+}
+
+.latin{
+    width: 278.10px;
+}
+
+#component-bottom-content-2{
+    margin-left: 2.3994rem;
+    margin-top: 2.3763rem;
+    margin-bottom: 0;
+}
+
+#component-bottom-content-3{
+    margin-left: 2.3994rem;
+    margin-top: 2.3763rem;
+    margin-bottom: 0;
+}
+
+#component-bottom-content-4{
+    margin-left: 2.3994rem;
+    margin-top: 2.3763rem;
+    margin-bottom: 3.1125rem;
+}
+
+/*------END---Container-2-----*/
+
+/*-------Container-3----------*/
+
+
+#container3{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+}
+
+#container3-col-left{
+    margin-left: 1.7406rem;
+    margin-top: 0rem;
+    width: 334.33px;
+    align-items: start;
+}
+
+#Portfolio{
+    margin: 0;
+}
+
+#latin-c3{
+    width: 296px;
+    margin-top: 1.625rem;
+    margin-bottom: 2.5675rem;
+}
+
+#container3-col-right{
+    display: none;
+}
+
+#container3-col-right-375{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.8444rem;
+    margin-top: 2.5675rem;
+    margin-bottom: 5.2094rem;
+}
+
+#bureau-375, #paint-375, #water-375, #typewriter-375, #lemon-375 {
+    margin-top: 1.7612rem;
+}
+
+
+/*-------END---Container-3--------*/
+
+/*--------Container-4-------------*/
+
+#container4{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+}
+
+#container4-col-left{
+    margin-left: 1.8444rem;
+    margin-top: 0rem;
+    width: 242px;
+    align-items: start;
+}
+
+#experience{
+    margin: 0;
+    height: 60px;
+}
+
+#trait4{
+    margin-top: 1rem;
+    margin-bottom: 1.75rem;
+}
+
+.container4-col-left-latin{
+    margin-top: 0rem;
+}
+
+#boxA2, #boxB2, #boxC2{
+    display: none;
+}
+
+#component-content--col-left-action1 > a{
+    display: none;
+}
+
+#container4-col-right--boxA, #container4-col-right--boxB, #container4-col-right--boxC {
+    margin-left: 2.2506rem;
+}
+
+#component-content--col-left-action1-375 > a{
+    width: 194px;
+    height: 47px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+    background-color: #BB2323;
+    padding: 0.75rem 2rem;
+    border-radius: 3.125rem;
+}
+
+#component-content--col-left-action1-375{
+    display: block;
+    margin-left: 1.8444rem;
+    margin-bottom: 3.75rem;
+}
+
+#button{
+    display: flex;
+    align-items: center;
+}
+
+
+/*------END----Container-4-----*/
+
+/*-------Container-5-----------*/
+
+#container5{
+    display: none;
+}
+/*------END---Container-5------*/
+
+/*-------Container-6------------*/
+
+
+
+#temoignages, #trait6{
+    margin-left: 1.8444rem;
+    margin-top: 0rem;
+    width: 242px;
+    align-items: start;
+}
+
+#trait6{
+    width: 73px;
+    margin-top: 0.875rem;
+    margin-bottom: 2.4375rem;
+}
+
+#portait{
+    display: none;
+}
+
+#container6-line1{
+    margin: 0rem;
+}
+
+#latin-6{
+    margin-left: 2.0625rem;
+    margin-top: 0rem;
+    margin-bottom: 1.9375rem;
+}
+
+#container6-line2{
+    margin: 0rem;
+}
+
+#saul, #ceo{
+    margin-left: 2.3756rem;
+    margin-bottom: 0;
+   
+}
+
+/*-------END----Container-6--------*/
+
+/*---------Container-7------------*/
+
+#container7{
+    display: flex;
+    flex-direction: column;
+}
+
+#container7-col-left{
+    margin-left: 1.8444rem;
+    margin-top: 5.125rem;
+    align-items: start;
+}
+
+#actualite{
+    margin: 0rem;
+}
+
+#container7-col-right{
+    margin-left: 1.8444rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    align-items: start;
+}
+
+/*-------END----Container-7-------*/
+
+/*------Container-8---------------*/
+
+#container8{
+    display: flex;
+    flex-direction: column;
+}
+
+#container8-col-left{
+    margin-left: 1.8444rem;
+    margin-top: 3.8237rem;
+    width: 242px;
+    align-items: start;
+}
+
+#container8-col-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.8444rem;
+    margin-top: 2.59rem;
+    max-width: 308.24px;
+    align-items: start;
+}
+/*
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#votre_nom, #mail{
+    width: 308.21px;
+    height: 62px;
+}
+
+#message{
+    width: 308.21px;
+    height: 167px;
+}
+*/
+}
+

@@ -1,0 +1,3 @@
+/*! For license information please see index.bundle.js.LICENSE.txt */
+(()=>{"use strict";var e={"./src/style-responsive.css":(e,r,s)=>{s.r(r)},"./src/style.css":(e,r,s)=>{s.r(r)}},r={};function s(t){var o=r[t];if(void 0!==o)return o.exports;var c=r[t]={exports:{}};return e[t](c,c.exports,s),c.exports}s.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};var t={};(()=>{s.r(t);s("./src/style.css"),s("./src/style-responsive.css")})()})();
+//# sourceMappingURL=index.bundle.js.map
